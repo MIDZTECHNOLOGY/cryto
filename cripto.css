@@ -1,0 +1,128 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*style for html tags*/
+body, html {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+div{
+	padding: 15px 0 10px 0;
+	float: left;
+}
+
+.topnav {
+	width: 100%;
+	height: 70px;
+  overflow: hidden;
+  background-color: #1261A0;
+}
+a{
+	padding: 0 20px;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+body > div > div:nth-child(3) > a:nth-child(2){
+	padding: 15px 25px;
+    background-color: #98fb98;
+    border-radius: 5px;
+}
+.section1{
+	width:100%;
+	height: 600px;
+	background-color: #072F5F;
+}
+.section1 div{
+	width: 40%;
+	padding: 30px;
+	margin: 150px 70px;
+	color: white;
+	font-size: 25px;
+}
+.section2{
+	clear: both;
+	width: 80%;
+	height: 500px;
+	margin: 70px auto;
+	text-align: center;
+}
+.section2 div{
+	width: 33.3333%;
+	background-color: white;
+	height: 300px;
+	padding: 110px 30px 30px 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.section3{
+	width:80%;
+	margin: auto;
+	height: 600px; 
+}
+.section3 div{
+	width: 100%;
+	height: 150px;
+}
+.section3 div div{
+	width: 40%;
+	height: 150px;
+}
+.section3 div div h3{
+padding-left: 30px;
+}
+.section3 div div p{
+	padding: 30px;
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.section4{
+	clear: right;
+	width: 90%;
+	margin: 150px 0 100px 10%;
+	height: 600px;
+}
+.section4 h2{
+	margin-bottom: 80px;
+	font-weight: 800;
+	font-size: 30px;
+
+}
+.section4 div{
+	width: 40%;
+	height: 100px;
+	margin:10px 0;
+	padding: 20px 40px;
+	float: none;
+	box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+}
+.section5{
+	height: 250px;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	background-color: brown;
+}
+div button{
+	padding: 13px 23px;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	background-color: #98fb98;
+}
+button{
+	margin-top: 40px;
+	padding: 13px 23px;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	background-color: #98fb98;
+}
+footer{
+	height: 320px;
+	background-color: ghostwhite;
+}
